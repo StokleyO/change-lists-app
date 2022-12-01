@@ -68,6 +68,7 @@ export default function App() {
                     : value.array;
                 }
               });
+              setListNames2([...listNames2]);
             }
 
             toDoRef.current.value = "";
