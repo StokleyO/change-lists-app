@@ -4,17 +4,6 @@ import "./styles.css";
 export default function App() {
   const [currentList, setCurrentList] = useState("List One");
   const toDoRef = useRef();
-  const [listOne, setListOne] = useState(["First Item"]);
-  const [listTwo, setListTwo] = useState(["Second Item"]);
-  const [listThree, setListThree] = useState(["Third Item"]);
-  const [listFour, setListFour] = useState(["Fourth Item"]);
-  const [listNames, setListNames] = useState([
-    "List One",
-    "List Two",
-    "List Three",
-    "List Four"
-  ]);
-
   const [listNames2, setListNames2] = useState([
     {
       name: "List One",
